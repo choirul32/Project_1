@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - obstacle
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -44,14 +46,14 @@ TagManager:
   - name: bg_back
     uniqueID: 904732049
     locked: 0
-  - name: bg_mid(2)
-    uniqueID: 1261360353
-    locked: 0
   - name: bg_mid
     uniqueID: 1058393287
     locked: 0
   - name: bg_front
     uniqueID: 2156723791
+    locked: 0
+  - name: obstacle
+    uniqueID: 1843454421
     locked: 0
   - name: character
     uniqueID: 2345819239
